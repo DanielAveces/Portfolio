@@ -1,0 +1,62 @@
+/* https://colorhunt.co/palette/fff5e4ffe3e1ffd1d1ff9494 */
+
+body {
+  color: #043c4d;
+  background-color: #d3d3d1;
+  font-family: "Montserrat";
+
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.top {
+  background-color: #07617d;
+  color: #ececeb;
+}
+
+.social-button {
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
+.contact-button {
+  color: #07617d;
+  font-size: 1.5rem;
+}
+
+.contact-button:hover {
+  background-color: #07617d;
+  color: #ececeb;
+}
+
+.handwritten {
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  text-align: center;
+  max-width: 70%;
+  margin-left: 15%;
+}
+
+.middle {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.h2Title {
+  font-size: 2rem;
+}
+
+#language {
+  width: 4%;
+}
+
+.social-button:hover {
+  color: #F6F6C9;
+}
+
+.text-box {
+  font-size: 1.8rem;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Daniel Aceves</title>
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="icon" href="css/favicon.ico">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/27d3da140a.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- navigation bar -->
+  <div>
+    <nav class="top px-2 py-2 w-full fixed z-20 top-0">
+      <div class="container flex flex-wrap items-center mx-auto py-2 ">
+        <img class="sm:h-12 rounded" src="images/logo_small.PNG" alt="Daniel">
+        <span class="self-center text-xl font-semibold mx-6">Daniel Aceves</span>
+        <button type="button" class="fb social-button ml-auto font-bold rounded-full" name="button"><i class="fa-brands fa-facebook"></i></button>
+        <button type="button" class="twitter social-button font-bold rounded-full" name="button"><i class="fa-brands fa-twitter"></i></button>
+        <button type="button" class="linkedin social-button font-bold rounded-full" name="button"><i class="fa-brands fa-linkedin"></i></button>
+        <button type="button" class="github social-button font-bold rounded-full" name="button"><i class="fa-brands fa-github"></i></button>
+        <img id="language" src="images/US-UK_Flag.svg" alt="English">
+      </div>
+    </nav>
+  </div>
+
+  <!-- Contact -->
+  <div class="container mt-32 text-center mx-auto mb-16">
+    <h2 class="h2Title">I’m excited to learn about your project.</h2>
+    <h2 class="h2Title">Ready to get started?</h2>
+  </div>
+
+  <!-- submit form -->
+
+<div class="max-w-screen-sm container mx-auto">
+  <div>
+    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+    <input type="email" id="email"
+      class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+      placeholder="name@gmail.com" required>
+  </div>
+  <div>
+    <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+    <input type="text" id="subject"
+      class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+      placeholder="Let me know how I can help you" required>
+  </div>
+  <div class="sm:col-span-2">
+    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+    <textarea id="message" rows="6"
+      class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+      placeholder="Leave a comment..."></textarea>
+  </div>
+</div>
+  <!-- button -->
+
+  <div class="mx-auto text-center my-16">
+    <a button class="rounded-full outline outline-2 contact-button px-4 py-2" type="button" name="button" href="contact.html">Submit</button>
+    </a>
+  </div>
+
+  <!-- bottom -->
+
+  <div class="top mx-auto text-center py-10 mt-40">
+    <h1>Handcrafed by me <i class="fa-regular fa-copyright"></i> Daniel Aceves</h1>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
