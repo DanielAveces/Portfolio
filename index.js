@@ -23,3 +23,7 @@ $(".linkedin").on("click", function() {
 $(".github").on("click", function() {
   window.open("https://github.com/DanielAveces");
 });
+
+$("#xmass").on("click", function() {
+  window.open("https://danielaveces.github.io/Xmas-Countdown/");
+});

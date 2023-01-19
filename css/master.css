@@ -60,3 +60,24 @@ p {
 .text-box {
   font-size: 1.8rem;
 }
+
+.portfolio-showcase {
+    height: auto;
+    max-width: 70%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+
+.portfolio-showcase:hover {
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 0.5s ease;
+}
+
+.fa-brands {
+  height: auto;
+  max-width: 14rem;
+}
