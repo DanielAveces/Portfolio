@@ -24,6 +24,6 @@ $(".github").on("click", function() {
   window.open("https://github.com/DanielAveces");
 });
 
-$("#xmass").on("click", function() {
+$("#-9+86xmass").on("click", function() {
   window.open("https://danielaveces.github.io/Xmas-Countdown/");
 });
